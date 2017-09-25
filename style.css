@@ -1,28 +1,54 @@
 body {
-    background-color: #F5F4F1;
+  background-color: #f5f4f1;
 }
 
 #top-bar-1 {
-    background-color: #324968;
+  background-color: #324968;
+  color: #FFF;
 }
 
 #top-bar-2 {
-    background-color: #42705b;
+  background-color: #42705b;
 }
 
 header {
-    background-image: url('img/iStock-496568604.jpg');
+  background-image: url("img/iStock-496568604.jpg");
+  color: #FFF;
+}
+
+header h4 {
+  margin-top: 0;
 }
 
 #form {
-    background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
+#episode-overlay {
+  background-color: #fff;
+  width: 90%;
+  margin: auto;
+}
+
+footer {
+  background-color: #324968;
+}
 
 #footer-left {
-    float: left;
+  float: left;
 }
 
 #footer-right {
-    float: right;
+  float: right;
+}
+
+.img-resize {
+  height: 200px;
+  width: auto;
+}
+
+button.listen {
+  background-color: #92A55F;
+  border-radius: 0;
+  color: #FFF;
 }
