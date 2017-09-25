@@ -9,6 +9,7 @@ body {
 
 #top-bar-2 {
   background-color: #42705b;
+  border-top: 1px solid #698982;
 }
 
 header {
@@ -32,6 +33,7 @@ header h4 {
 
 footer {
   background-color: #324968;
+  color: #FFF;
 }
 
 #footer-left {
