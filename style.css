@@ -1,5 +1,6 @@
 body {
   background-color: #f5f4f1;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #top-bar-1 {
@@ -14,7 +15,11 @@ body {
 
 header {
   background-image: url("img/iStock-496568604.jpg");
+}
+
+header #headings {
   color: #FFF;
+  font-family: 'Merriweather', serif;
 }
 
 header h4 {
@@ -29,6 +34,11 @@ header h4 {
   background-color: #fff;
   width: 90%;
   margin: auto;
+}
+
+#episode-details h4 {
+  font-family: 'Merriweather', serif;
+  color: #2B72B2;
 }
 
 footer {
