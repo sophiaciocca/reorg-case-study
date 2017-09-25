@@ -1,9 +1,21 @@
+body {
+    background-color: #F5F4F1;
+}
+
+#top-bar-1 {
+    background-color: #324968;
+}
+
 #top-bar-2 {
     background-color: #42705b;
 }
 
 header {
     background-image: url('img/iStock-496568604.jpg');
+}
+
+#form {
+    background-color: #F2F2F2;
 }
 
 
