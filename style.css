@@ -11,17 +11,55 @@ img {
 #top-bar-1 {
   background-color: #324968;
   color: #FFF;
+  padding-left: 1em;
 }
 
 #top-bar-2 {
   background-color: #42705b;
   border-top: 1px solid #698982;
+  padding-left: 1em;
 }
 
 header {
   background-image: url("img/iStock-496568604.jpg");
+  background-size: cover;
   padding: 8%;
 }
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+header * {
+  position: relative;
+  /* hack */
+}
+
+
+/* .header-bg:before {
+  background: #000;
+} */
+
+/* header .header-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("img/iStock-496568604.jpg") center center;
+  opacity: .4;
+  width: 100%;
+  height: 100%;
+} */
 
 header #headings {
   color: #FFF;
@@ -95,4 +133,12 @@ button.listen {
 
 .crop2 img { /* (For long image, with apple) */
   margin: -190px 0 0 -75px;
+}
+
+ul  {
+  padding-left: 1.5em;
+ }
+
+ .transparent {
+  background:rgba(255,255,255,0.5);
 }
