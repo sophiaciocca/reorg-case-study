@@ -52,13 +52,26 @@ header h4 {
   margin-top: 0;
 }
 
+header h3 {
+  margin-top: 0;
+}
+
 #form {
   background-color: #f2f2f2;
+  padding: 1.5em;
+}
+
+#form label {
+  color: #696969;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+  display: block;
+  margin-bottom: 0;
 }
 
 #episode-overlay {
   background-color: #fff;
-  width: 88%;
   margin: auto;
   padding: 3% 1%;
 }
@@ -94,10 +107,19 @@ footer a {
   width: auto;
 }
 
+button {
+  color: #FFF;
+}
+
 button.listen {
   background-color: #92A55F;
   border-radius: 0;
-  color: #FFF;
+}
+
+button.submit {
+  display: block;
+  background-color: #324968;
+  border-radius: 0;
 }
 
 .img-bg {
@@ -129,6 +151,11 @@ ul  {
   padding-left: 1.5em;
  }
 
- .transparent {
-  background:rgba(255,255,255,0.5);
+.bold {
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+.narrow {
+  width: 88%;
 }
