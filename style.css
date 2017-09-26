@@ -3,6 +3,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+img {
+  opacity: 0.85;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 #top-bar-1 {
   background-color: #324968;
   color: #FFF;
@@ -15,6 +20,7 @@ body {
 
 header {
   background-image: url("img/iStock-496568604.jpg");
+  padding: 8%;
 }
 
 header #headings {
@@ -32,8 +38,9 @@ header h4 {
 
 #episode-overlay {
   background-color: #fff;
-  width: 90%;
+  width: 88%;
   margin: auto;
+  padding: 3% 1%;
 }
 
 #episode-details h4 {
@@ -63,4 +70,29 @@ button.listen {
   background-color: #92A55F;
   border-radius: 0;
   color: #FFF;
+}
+
+.img-bg {
+  background-image: url('img/bodie-pyndus-57662.jpg');
+  width: 200px;
+  height: 100px;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+.crop {
+  width: 250px;
+  height: 160px;
+  overflow: hidden;
+  margin: 5%;
+}
+
+.crop img {
+  width: 325px;
+  margin: -50px 0 0 -75px;
+}
+
+.crop2 img { /* (For long image, with apple) */
+  margin: -190px 0 0 -75px;
 }
