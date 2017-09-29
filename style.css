@@ -140,7 +140,7 @@ button.submit:hover {
 }
 
 .crop {
-  width: 250px;
+  width: 100%;
   height: 160px;
   overflow: hidden;
   margin: 5%;
