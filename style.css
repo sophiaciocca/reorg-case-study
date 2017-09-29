@@ -184,3 +184,15 @@ a:hover {
   text-decoration: none;
   color: #92A55F;
 }
+
+/*
+@media only screen
+and (max-width : 800px) {
+  body {
+    background-color: blue;
+  }
+
+  #form {
+    width: 50%;
+  }
+} */

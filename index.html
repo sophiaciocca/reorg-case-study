@@ -34,16 +34,16 @@
     <!--Header-->
     <header class="overlay">
       <div class="row">
-        <div id="headings" class="col-lg-6 fadeIn animated">
+        <div id="headings" class="col-lg-6 col-md-6">
           <h4>Reorg Covenants Podcast:</h4>
           <h3>Tops Jettisons Holdco Notes While Rite Aid Pushes Ahead Without Walgreens' Merger</h3>
           <button class="btn listen">Listen to the Podcast</button>
         </div>
         <!--Form-->
-        <div id="form" class="col-lg-6">
+        <div id="form" class="col-lg-6 col-md-6">
           <p class="bold">Complete the form below to sign up for updates about the Reorg Covenants Podcast Series:
           </p>
-          <div>
+          <div id="form-wrapper">
             <form action="#">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname">
@@ -58,7 +58,6 @@
                 <span class="inline">Each Reorg Covenants podcast episode will focus on general trends in the financing environment as well as
                   recent events and theses.</span>
               </div>
-            </form>
             </form>
           </div>
         </div>
@@ -138,6 +137,17 @@
   <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!--A little JavaScript to move the form for mobile-->
+  <script>
+    $(window).on('load resize', function () { //Fires when window is loaded or resized
+      var $form = $('#form');
+
+      if ($(window).width() < 990) {
+        $form.appendTo('#episode-overlay')
+      }
+    });
+  </script>
 </body>
 
 </html>
