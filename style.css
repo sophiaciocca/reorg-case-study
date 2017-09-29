@@ -1,10 +1,11 @@
 body {
   background-color: #f5f4f1;
   font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 img {
-  opacity: 0.85;
+  opacity: 0.9;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
@@ -47,7 +48,6 @@ header h3 {
 #form label {
   color: #696969;
   font-style: italic;
-  -webkit-font-smoothing: antialiased;
   font-weight: 100;
   display: block;
   margin-bottom: 0;
@@ -75,7 +75,7 @@ header h3 {
 footer {
   background-color: #324968;
   color: #FFF;
-  padding-top: 1em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
 }
 
@@ -109,11 +109,25 @@ button.listen {
   margin: 20px 0;
 }
 
+button.listen:hover {
+  background-color: #FFF;
+  border-width: 1px;
+  border-color: #92A55F;
+  color: #92A55F;
+}
+
 button.submit {
   display: block;
   background-color: #324968;
   border-radius: 0;
   margin-right: 20px;
+}
+
+button.submit:hover {
+  background-color: #FFF;
+  border-width: 1px;
+  border-color: #324968;
+  color: #324968;
 }
 
 .img-bg {
@@ -147,7 +161,6 @@ ul  {
 
 .bold {
   font-weight: bold;
-  -webkit-font-smoothing: antialiased;
 }
 
 .narrow {
@@ -157,4 +170,17 @@ ul  {
 .flex {
   display: flex;
   margin: 18px 0;
+}
+
+a {
+  transition: all .3s ease;
+}
+
+button {
+  transition: all .3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #92A55F;
 }
