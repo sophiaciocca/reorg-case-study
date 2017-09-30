@@ -1,0 +1,165 @@
+body {
+    background-color: #f5f4f1;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img {
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+  #top-bar-1 {
+    background-color: #324968;
+    color: #FFF;
+    padding-left: 1em;
+  }
+
+  #top-bar-2 {
+    background-color: #42705b;
+    border-top: 1px solid #698982;
+    padding-left: 1em;
+  }
+
+  header {
+    background-image: url("http://i67.tinypic.com/2q24opl.jpg");
+    background-size: cover;
+    padding: 8%;
+  }
+
+  header #headings {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+  }
+
+  header h4 {
+    margin-top: 0;
+  }
+
+  header h3 {
+    margin-top: 0;
+  }
+
+  #episode-overlay {
+    background-color: #fff;
+    margin: auto;
+    padding: 3% 1%;
+  }
+
+  #episode-details h4 {
+    font-family: 'Merriweather', serif;
+    color: #2B72B2;
+  }
+
+  footer {
+    background-color: #324968;
+    color: #FFF;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  #footer-left {
+    float: left;
+  }
+
+  #footer-right {
+    float: right;
+    text-align: right;
+  }
+
+  footer a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .img-resize {
+    height: 200px;
+    width: auto;
+  }
+
+  button {
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  button.listen {
+    background-color: #92A55F;
+    border-radius: 0;
+    margin: 20px 0;
+  }
+
+  button.listen:hover {
+    background-color: #FFF;
+    border-width: 1px;
+    border-color: #92A55F;
+    color: #92A55F;
+  }
+
+  button.submit {
+    display: block;
+    background-color: #324968;
+    border-radius: 0;
+    margin-right: 20px;
+  }
+
+  button.submit:hover {
+    background-color: #FFF;
+    border-width: 1px;
+    border-color: #324968;
+    color: #324968;
+  }
+
+  .img-bg {
+    background-image: url('img/bodie-pyndus-57662.jpg');
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+  }
+
+  .crop {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    margin: 5%;
+  }
+
+  .crop img {
+    width: 325px;
+    margin: -50px 0 0 -75px;
+  }
+
+  .crop2 img { /* (For long image, with apple) */
+    margin: -190px 0 0 -75px;
+  }
+
+  ul  {
+    padding-left: 1.5em;
+   }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .narrow {
+    width: 88%;
+  }
+
+  .flex {
+    display: flex;
+    margin: 18px 0;
+  }
+
+  a {
+    transition: all .3s ease;
+  }
+
+  button {
+    transition: all .3s ease;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #92A55F;
+  }

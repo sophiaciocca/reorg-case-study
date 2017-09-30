@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Reorg Research: Reorg Covenants</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="email-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+
+<body>
+
+  <div id="app" class="fadeIn animated">
+
+    <!--Two Small Bars at Top-->
+    <div id="top-bar-1">
+      Reorg Research
+    </div>
+    <div id="top-bar-2">
+      <img src="img/Reorg-Covenants-KO.png">
+    </div>
+
+    <!--Header-->
+    <header class="overlay">
+      <div class="row">
+        <div id="headings" class="col-lg-6 col-md-6">
+          <h4>Reorg Covenants Podcast:</h4>
+          <h3>Tops Jettisons Holdco Notes While Rite Aid Pushes Ahead Without Walgreens' Merger</h3>
+          <button class="btn listen">Listen to the Podcast</button>
+        </div>
+      </div>
+    </header>
+
+    <div id="episode-overlay" class="row narrow">
+      <!--Episode Detail Text-->
+      <div id="episode-details" class="col-lg-6 col-md-6">
+        <p>This episode includes discussion of the following issues in Tops Holding and Rite Aid:</p>
+        <h4>Tops Holding, LLC</h4>
+        <ul>
+          <li>
+            Tops’ unique capital structure and its recent financing transaction.
+          </li>
+          <li>
+            Redemption of holdco notes under the revolver is subject to certain projected availability conditions; while the borrowers
+            likely cannot currently satisfy such availability conditions, as long as they are able to project that they will
+            be able to satisfy them, they may be permitted to make restricted payments.
+          </li>
+        </ul>
+        <h4>Rite Aid</h4>
+        <ul>
+          <li>
+            Use of proceeds requirements following sale of assets to Walgreens
+          </li>
+          <li>
+            How Rite Aid’s 6.125% Senior Notes due 2023 may remain outstanding following Walgreens’ sale despite use of proceeds requirements
+            under asset sale covenants
+          </li>
+        </ul>
+        <button class="btn listen">Listen to the Podcast</button>
+      </div>
+
+      <!--Image Grid-->
+      <div id="photo-grid" class="col-lg-6 col-md-6">
+        <div class="row">
+          <!-- <div class="col-lg-6"><img src="img/bodie-pyndus-57662.jpg" class="img-resize"></div> -->
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="crop"><img src="img/bodie-pyndus-57662.jpg"></div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="crop crop2"><img src="img/raquel-martinez-96648.jpg"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="crop"><img src="img/leon-ephraim-7666.jpg"></div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="crop"><img src="img/alexandru-tugui-185047.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="container narrow">
+        <div id="footer-left">
+          <p class="small">© 2017 Reorg Research</p>
+          <a class="small" href="#">Terms & Conditions</a><br>
+          <a class="small" href="#">Privacy Policy</a>
+        </div>
+        <div id="footer-right">
+          <ul class="list-inline">
+            <li><a href="https://twitter.com/reorgresearch" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/2927707/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+          </ul>
+          <a href="#"><img src="img/Reorg-Logo-KO-lg.png"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!--A little JavaScript to move the form for mobile-->
+  <script>
+    $(window).on('load resize', function () { //Fires when window is loaded or resized
+      var $form = $('#form');
+
+      if ($(window).width() < 990) {
+        $form.appendTo('#episode-overlay')
+      }
+    });
+  </script>
+</body>
+
+</html>
